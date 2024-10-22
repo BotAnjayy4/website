@@ -16,6 +16,8 @@
                 <li><a href="#services">Jasa</a></li>
                 <li><a href="#saweria">Saweria</a></li>
                 <li><a href="#scripts">Script</a></li>
+                <li><a href="#testimonials">Testimoni</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Kontak</a></li>
                 <li><a href="#info">Info</a></li>
             </ul>
@@ -24,7 +26,23 @@
 
     <section id="products">
         <h2>Produk</h2>
-        <p>Berbagai produk tersedia di sini...</p>
+        <div class="product-gallery">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 1">
+                <h3>Produk 1</h3>
+                <p>Deskripsi singkat produk 1.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 2">
+                <h3>Produk 2</h3>
+                <p>Deskripsi singkat produk 2.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 3">
+                <h3>Produk 3</h3>
+                <p>Deskripsi singkat produk 3.</p>
+            </div>
+        </div>
     </section>
 
     <section id="services">
@@ -42,8 +60,32 @@
         <p>Kumpulan script untuk berbagai keperluan...</p>
     </section>
 
+    <section id="testimonials">
+        <h2>Testimoni Pelanggan</h2>
+        <div class="testimonial">
+            <p>"Produk luar biasa! Sangat puas dengan pelayanan!" - Pelanggan A</p>
+        </div>
+        <div class="testimonial">
+            <p>"Jasa yang ditawarkan sangat membantu!" - Pelanggan B</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>FAQ</h2>
+        <h3>Q: Bagaimana cara melakukan pemesanan?</h3>
+        <p>A: Anda bisa menghubungi kami melalui kontak yang tersedia.</p>
+        <h3>Q: Apakah ada jaminan uang kembali?</h3>
+        <p>A: Ya, kami memiliki kebijakan pengembalian dalam waktu 30 hari.</p>
+    </section>
+
     <section id="contact">
         <h2>Kontak</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
         <p>Email: example@store.com</p>
         <p>WhatsApp: +62 812 3456 7890</p>
     </section>
@@ -55,6 +97,11 @@
 
     <footer>
         <p>&copy; 2024 Store Simple. Semua hak cipta dilindungi.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
     </footer>
 
     <script src="script.js"></script>
